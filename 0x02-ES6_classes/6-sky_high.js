@@ -2,8 +2,7 @@ import Building from './5-building.js'; // eslint-disable-line
 
 export default class skyHighBuilding extends Building {
   constructor(sqft, floors) {
-    super();
-    super.sqft = sqft;
+    super(sqft);
     this._floors = floors;
   }
 
