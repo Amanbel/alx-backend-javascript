@@ -1,3 +1,5 @@
-import handleProfileSignup from "./3-all.js";
+import guardrail from './9-try.js';
+import divideFunction from './8-try.js';
 
-handleProfileSignup();
+console.log(guardrail(() => { return divideFunction(10, 2)}));
+console.log(guardrail(() => { return divideFunction(10, 0)}));
