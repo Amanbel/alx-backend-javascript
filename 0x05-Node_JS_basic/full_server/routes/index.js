@@ -1,5 +1,5 @@
-import AppController from '../controllers/AppController';
-import StudentsController from '../controllers/StudentsController';
+import AppController from '../controllers/AppController'; // eslint-disable-next-line
+import StudentsController from '../controllers/StudentsController'; // eslint-disable-next-line
 
 const mapRoutes = (app) => {
   app.get('/', AppController.getHomepage);

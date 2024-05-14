@@ -1,5 +1,5 @@
 import express from 'express';
-import mapRoutes from './routes';
+import mapRoutes from './routes'; // eslint-disable-next-line
 
 const app = express();
 const PORT = 1245;
